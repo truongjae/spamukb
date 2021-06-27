@@ -17,7 +17,7 @@ function randomso(min, max) {
 }
 function tuyensinhukb() {
     setInterval(function() {
-        for (var i = 0; i < 20; i++) {
+        for (var i = 0; i < 100; i++) {
             var hoten = (ho[Math.floor(Math.random() * ho.length)] + ten[Math.floor(Math.random() * ten.length)]).toString();
             var sdt = dauso[Math.floor(Math.random() * dauso.length)] + randomso(12345618, 99899978).toString();
             var khoa = ["Quản trị dịch vụ du lịch và lữ hành",
@@ -71,7 +71,7 @@ function tuyensinhukb() {
                 }*/
                 );
         }
-    }, 2000);
+    }, 1000);
 }
 function codegym() {
     // setInterval(function() {
