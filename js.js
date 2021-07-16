@@ -66,7 +66,7 @@ function tuyensinhukb() {
                     "time_zone": 7
                 },
                 function(data, status) {
-                    document.writeln("ĐÃ VẢ VỠ MỖM UKB");
+                    document.writeln("ĐÃ VẢ VỠ MỒM UKB");
                 }
                 );
         }
