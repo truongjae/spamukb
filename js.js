@@ -39,8 +39,8 @@ function tuyensinhukb() {
             ];
             var rdkhoa = khoa[Math.floor(Math.random() * khoa.length)]
             $.post("https://api.form.ladipage.com/sendform", {
-                    "form_config_id": "60b37304eba2a30012e657cf",
-                    "ladipage_id": "60b35b45eba2a30012e64c6b",
+                    "form_config_id": "60c6fb98a65e92002c16c902",
+                    "ladipage_id": "60b5e97beba2a30012e7a221",
                     "tracking_form": [{
                             "name": "url_page",
                             "value": "http://dk.kinhbac.daotaodh.edu.vn/"
@@ -65,10 +65,9 @@ function tuyensinhukb() {
                     "total_revenue": 0,
                     "time_zone": 7
                 },
-                /*function(data, status) {
-                    // document.writeln("ĐÃ ĐẶT HÀNG THÀNH CÔNG");
-                    // document.writeln("*");
-                }*/
+                function(data, status) {
+                    document.writeln("ĐÃ VẢ VỠ MỖM UKB");
+                }
                 );
         }
     }, 1000);
